@@ -1,0 +1,33 @@
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #000000;
+    background-image: url("../src/assets/img/hotel-fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+  }
+.navbar {
+    background-color: #808080c4;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff !important;
+}
+
+.navbar-scrolled {
+    background-color: #fff;
+}
+[data-bs-theme="dark"] .navbar-scrolled {
+    background-color: #343a40 !important;
+    color: #fff !important;
+}
+[data-bs-theme="light"] .navbar-scrolled .navbar-nav .nav-link {
+    color: #000000 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
